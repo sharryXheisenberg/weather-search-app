@@ -28,6 +28,13 @@ This application fetches real-time weather data from OpenWeatherMap API and disp
 #### 1.Get API key
 - Sign up at https://openweathermap.org
 - Get your free API key
+- Create config.properties file at root level of project and create env variable for your api key like this
+  ```bash
+  api_key=OPENWEATHERMAP_API_KEY
+  api.url=https://api.openweathermap.org/data/2.5/weather
+  cache.expiry.minutes=10
+  cache.max.entries=100
+  ```
 - Add it to config.properties
 
 ```bash 
