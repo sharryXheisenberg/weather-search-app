@@ -6,6 +6,10 @@ A simple weather application that allows users to search for current weather inf
 
 This application fetches real-time weather data from OpenWeatherMap API and displays temperature, humidity, wind speed, pressure, and visibility information. The backend implements caching to improve performance for repeated queries.
 
+## **Result**
+![Weather Display](./images/result_for_weather_app.png)
+
+
 ### **Tech Stack**
 
 #### **Backend**
